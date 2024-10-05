@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import movingHouse from "@/assets/moving_house.png";
 import blogNews from "@/assets/blog_news.png";
 import hotelBooking from "@/assets/hotel_booking.png";
+import gemini from "@/assets/gemini.png";
 
 const projects = [
   {
@@ -17,6 +18,15 @@ const projects = [
     src: movingHouse,
   },
   {
+    title: "Gemini Clone Website",
+    desc: "Website builded with ReactJS, TailwindCSS and used gemini API to answer the question from user",
+    devStack: "ReactJS, TailwindCSS, GeminiAPI",
+    type: "Website",
+    link: "https://gemini-clone-reactjs-self.vercel.app",
+    git: "https://github.com/quidev2505/GeminiClone",
+    src: gemini,
+  },
+  {
     title: "Building News Blog Website",
     desc: "Website was build and optimize performance with nextjs and applied SEO best practices",
     devStack: "NextJS, TypeScript, TailwindCSS, API - newsdata.io",
@@ -27,7 +37,7 @@ const projects = [
   },
   {
     title: "Hotel Booking Website",
-    desc: "Website was build to booking room in hotel, fill information to form and pre-order room. This site using NextJS and Prisma, API Routes to query and show data",
+    desc: "Website was build to book room in hotel, fill information into form and pre-order room. This site using NextJS and Prisma, API Routes to query and show data",
     devStack: "NextJS, TypeScript, NodeJS, ExpressJS, PostgreSQL",
     type: "Website",
     link: "https://hotelroom.vercel.app/",
