@@ -8,7 +8,7 @@ import Image from "next/image";
 import { IoMdDownload } from "react-icons/io";
 
 const Hero = () => {
-  const pdfUrl = "/cv_fe.pdf";
+  const pdfUrl = "/PhanThanhQui_FrontEnd.pdf";
   return (
     <>
       <div className="py-24 relative overflow-clip bg-gradient-to-b from-[#0a045789] via-[#8F5C55] to-[#DBAF6E] px-2 z-30">
@@ -69,7 +69,7 @@ const Hero = () => {
             <a
               className="bg-white rounded-md flex items-center justify-between mx-auto p-5 text-xl hover:bg-black hover:text-white border"
               href={pdfUrl}
-              download="phanthanhqui_frontend.pdf"
+              download="PhanThanhQui_FrontEnd.pdf"
             >
               <IoMdDownload />
               <h2 className="ml-4">Download My CV</h2>
