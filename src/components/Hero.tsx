@@ -11,7 +11,7 @@ const Hero = () => {
   const pdfUrl = "/cv_fe.pdf";
   return (
     <>
-      <div className="py-24 mt-4 relative overflow-clip bg-gradient-to-b from-[#0a045789] via-[#8F5C55] to-[#DBAF6E] px-2 z-30">
+      <div className="py-24 relative overflow-clip bg-gradient-to-b from-[#0a045789] via-[#8F5C55] to-[#DBAF6E] px-2 z-30">
         <div
           className="absolute rounded-[50%] w-[3000px] h-[1300px] top-[550px] left-[50%] -translate-x-1/2 
         bg-black"
