@@ -1,5 +1,6 @@
 // React Server Components
 import About from "@/components/About";
+import BtnFloat from "@/components/BtnFloat";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -9,7 +10,8 @@ import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
-    <div>
+    <div className="font-poppins">
+      <BtnFloat />
       <Navbar />
       <Hero />
       <About />

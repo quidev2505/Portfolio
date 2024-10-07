@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="mt-12 text-white/70 py-8 max-w-[1000px] mx-auto border-gray-700 pt-4 flex justify-between items-center px-5 md:px-0">
       <h1 className="text-2xl font-bold">Phan Qui</h1>
-      <div className="flex space-x-6 mt-4">
+      <div className="flex space-x-6 mt-4 z-50">
         <Link
           href="https://www.linkedin.com/in/phan-thanh-qui-798087270/"
           className="hover:text-gray-300"

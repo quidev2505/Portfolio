@@ -38,7 +38,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="text-white/70 pt-4">
+      <div className="text-white/70 pt-4" id="top_page">
         <div className="hidden md:flex items-center px-4 py-2 mx-auto max-w-[400px]">
           <ul className="flex flex-grow p-4 space-x-8">
             {navLinks.map((link) => (

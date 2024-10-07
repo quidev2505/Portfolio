@@ -5,11 +5,13 @@ import cursor from "@/assets/icon1.png";
 import lighting from "@/assets/icon2.png";
 import profilePicture from "@/assets/portforlio.png";
 import Image from "next/image";
+import { IoMdDownload } from "react-icons/io";
 
 const Hero = () => {
+  const pdfUrl = "/cv_fe.pdf";
   return (
     <>
-      <div className="py-24 mt-4 relative overflow-clip bg-gradient-to-b from-[#0a045789] via-[#8F5C55] to-[#DBAF6E] px-2">
+      <div className="py-24 mt-4 relative overflow-clip bg-gradient-to-b from-[#0a045789] via-[#8F5C55] to-[#DBAF6E] px-2 z-30">
         <div
           className="absolute rounded-[50%] w-[3000px] h-[1300px] top-[550px] left-[50%] -translate-x-1/2 
         bg-black"
@@ -63,6 +65,16 @@ const Hero = () => {
             draggable="false"
             style={{ width: "390px", height: "390px" }}
           />
+          <div className="flex justify-center">
+            <a
+              className="bg-white rounded-md flex items-center justify-between mx-auto p-5 text-xl hover:bg-black hover:text-white border"
+              href={pdfUrl}
+              download="phanthanhqui_frontend.pdf"
+            >
+              <IoMdDownload />
+              <h2 className="ml-4">Download My CV</h2>
+            </a>
+          </div>
         </div>
       </div>
     </>
