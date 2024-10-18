@@ -6,6 +6,7 @@ import movingHouse from "@/assets/moving_house.png";
 import blogNews from "@/assets/blog_news.png";
 import hotelBooking from "@/assets/hotel_booking.png";
 import gemini from "@/assets/gemini.png";
+import codevui from "@/assets/codevui.png";
 
 const projects = [
   {
@@ -16,6 +17,15 @@ const projects = [
     link: "https://movinghousedeploy.web.app/",
     git: "https://github.com/quidev2505/MovingHouseService",
     src: movingHouse,
+  },
+  {
+    title: "Ecommerce Share Code",
+    desc: "Website provide many type of source and payment online",
+    devStack: "MongoDB - Express - ReactJS - NodeJS - Stripe",
+    type: "Website",
+    link: "https://codevui.vercel.app/",
+    git: "",
+    src: codevui,
   },
   {
     title: "Gemini Clone Website",
@@ -63,11 +73,10 @@ const Portfolio = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.25 }}
-            className={`mt-12 flex flex-col gap-8 ${
-              index % 2 === 1
-                ? "md:flex-row-reverse md:justify-between gap-12"
-                : "md:flex-row md:justify-between"
-            }`}
+            className={`mt-12 flex flex-col gap-8 ${index % 2 === 1
+              ? "md:flex-row-reverse md:justify-between gap-12"
+              : "md:flex-row md:justify-between"
+              }`}
           >
             <div className="space-y-2 max-w-[550px]">
               <h2 className="text-7xl my-4 text-white/70">{`0${index + 1}`}</h2>

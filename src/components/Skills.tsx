@@ -1,6 +1,9 @@
 "use client";
 import React from "react";
-import { FaHtml5, FaCss3, FaReact, FaJsSquare } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaReact, FaJsSquare, FaNodeJs } from "react-icons/fa";
+import { SiMui } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsLine } from "react-icons/ri";
 import { motion } from "framer-motion";
 
 const skillIcons = [
@@ -8,6 +11,10 @@ const skillIcons = [
   { icon: <FaCss3 size={140} />, label: "CSS" },
   { icon: <FaJsSquare size={140} />, label: "Javascript" },
   { icon: <FaReact size={140} />, label: "React" },
+  { icon: <RiNextjsLine size={140} />, label: "Nextjs" },
+  { icon: <FaNodeJs size={140} />, label: "NodeJS" },
+  { icon: <RiTailwindCssFill size={140} />, label: "TailwindCss" },
+  { icon: <SiMui size={140} />, label: "MUI" },
 ];
 
 const Skills = () => {
