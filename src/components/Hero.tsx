@@ -53,7 +53,7 @@ const Hero = () => {
             className="text-center text-white font-bold text-xl max-w-[690px] mx-auto mt-8
           "
           >
-            I am a Frontend Developer with over a year of experience crafting
+            I am a Web Developer with over a year of experience crafting
             <br />
             high-performance websites that deliver exceptional user experiences
           </p>
